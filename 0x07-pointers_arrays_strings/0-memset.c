@@ -1,4 +1,5 @@
-#include <string.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
  * simple_print_buffer - prints buffer in hexa
@@ -16,7 +17,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
         {
                 if (i % 10)
                 {
-                        printf("i = %s\n", i);
+                        printf(" ");
                 }
                 if (!(i % 10) && i)
                 {
@@ -39,6 +40,7 @@ int main(void)
 
     simple_print_buffer(buffer, 98);
     _memset(buffer, 0x01, 95);
-    printf("The buffer byte size after memset is %s\n", buffer[]);
-    simple_print_buffer(buffer, 98);
+    printf("-------------------------------------------------\n");
+    simple_print_buffer(buffer, 98);    
     return (0);
+}
