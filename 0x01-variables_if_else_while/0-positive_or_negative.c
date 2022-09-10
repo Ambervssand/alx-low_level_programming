@@ -4,10 +4,10 @@
 /* more headers goes there */
 
 /**
- *  * main - entry point, checks if a random integer is positive or negative
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - entry point, checks if a random integer is positive or negative
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
