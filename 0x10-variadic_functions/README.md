@@ -1,1 +1,1 @@
-Standard arguments
+Variadic Functions
